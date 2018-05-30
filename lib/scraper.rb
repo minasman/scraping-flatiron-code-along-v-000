@@ -29,7 +29,7 @@ class Scraper
   def make_courses
     courses = self.get_courses
     courses.each do |article|
-      puts h2.text 
+      puts article.css("h2").text 
     end
   end
     
