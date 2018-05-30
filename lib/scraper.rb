@@ -29,9 +29,7 @@ class Scraper
       Course.new(article.css("h2").text, article.css("em").text, article.css("p").text)
     end
   end
-    
-  
 end
 
-
+Scraper.new.print_courses
 
