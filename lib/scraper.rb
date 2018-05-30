@@ -30,6 +30,8 @@ class Scraper
     courses = self.get_courses
     courses.each do |article|
       puts article.css("h2").text 
+      puts article.css("em").text
+      puts article.css("p").text 
     end
   end
     
