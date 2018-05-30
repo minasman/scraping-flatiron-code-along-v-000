@@ -29,7 +29,7 @@ class Scraper
       course = Course.new
       course.tile = article.css("h2").text
       course.schedule = article.css("em").text
-      course.description = article.css("p").text)
+      course.description = article.css("p").text
     end
   end
 end
