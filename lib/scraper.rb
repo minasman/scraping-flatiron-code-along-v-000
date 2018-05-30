@@ -22,7 +22,7 @@ class Scraper
   
   def get_courses
     doc = self.get_page
-    courselist = doc.css(".posts-holder article")
+    courselist = doc.css(".posts")
   end
   
   def make_courses
