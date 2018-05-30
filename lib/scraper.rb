@@ -36,6 +36,6 @@ class Scraper
   
 end
 
-courses = Scraper.new.make_courses
+#courses = Scraper.new.make_courses
 
 
